@@ -46,7 +46,7 @@ Import & Export Modules are ES6 features that allows us to write reusable js cod
 
      Example : Check `Header.js` file inside components in this chapter. There are three components exported. 
      
-     In `app.js`, while importing use `import * from MainHeader from './components/Header'` . <MainHeader.Header></MainHeader.Header> is used to render Header Component in AppLayout Component.
+     In `app.js`, while importing use `import * as MainHeader from './components/Header'` . <MainHeader.Header></MainHeader.Header> is used to render Header Component in AppLayout Component.
 
 
 ### 2. What is the importance of config.js file
